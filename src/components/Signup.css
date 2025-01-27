@@ -1,0 +1,114 @@
+.box{
+    margin: 40px;
+    height: 80vh;
+    display: flex;
+}
+.left-box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+img{
+    height: 50vh;
+}
+
+
+.right-box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.heading h2 {
+    font-size: 24px;
+    color: #ff007f; 
+    font-weight: bold;
+}
+
+.heading p {
+    font-size: 14px;
+    color: #6b7280; 
+    margin-top: 5px;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px; 
+    margin: 0 auto;
+}
+
+.signup input {
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 1px solid #d1d5db; 
+    border-radius: 30px; 
+    outline: none;
+    transition: border-color 0.3s ease;
+    width: 100%; 
+    box-sizing: border-box;
+    background-color: #f9fafb; 
+}
+
+.signup input:focus {
+    border-color: #ff007f; 
+    background-color: #ffffff; 
+}
+
+.signup button {
+    background-color: #ff007f; 
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px; 
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%; 
+    box-sizing: border-box;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 15px; 
+}
+
+.signup button:hover {
+    background-color: #e60073; 
+    transform: scale(1.05); 
+}
+
+
+.login-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #6b7280; 
+    text-align: center;
+}
+
+.login-link a {
+    color: #ff007f; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.login-link a:hover {
+    color: #e60073; 
+}
